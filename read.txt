@@ -1,0 +1,12 @@
+1. if pm2 runs manually then do the below processess.
+
+note : after service runs please save pm2 services 'first using pm2 save'
+
+2. fisrt make a file with name 'pm2startup.bat' and paste the below code
+
+@echo off
+cd /d C:\Users\Administrator.PNS
+pm2 resurrect
+
+
+3. then run the startStartupService.
